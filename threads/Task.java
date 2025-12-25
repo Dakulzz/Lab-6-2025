@@ -1,0 +1,16 @@
+// threads/Task.java
+package threads;
+
+import functions.Function;
+
+public class Task {
+    public Function function;
+    public double leftX;
+    public double rightX;
+    public double step;
+    public int tasksCount;
+
+    public Task(int tasksCount) {
+        this.tasksCount = tasksCount;
+    }
+}
